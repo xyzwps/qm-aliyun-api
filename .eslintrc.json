@@ -27,6 +27,7 @@
     "no-useless-escape": "off",
     "object-curly-spacing": "off",
     "quotes": "off",
-    "semi": [ "error", "always" ]
+    "semi": [ "error", "always" ],
+    "valid-jsdoc": "off"
   }
 }

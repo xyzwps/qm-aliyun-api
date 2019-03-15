@@ -15,7 +15,10 @@
     "jest": "^24.5.0"
   },
   "dependencies": {
+    "got": "^9.6.0",
     "lodash": "^4.17.11",
-    "url-parse": "^1.4.4"
+    "moment": "^2.24.0",
+    "url-parse": "^1.4.4",
+    "uuid": "^3.3.2"
   }
 }
