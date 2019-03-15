@@ -1,0 +1,32 @@
+{
+  "env": {
+    "es6": true,
+    "browser": false,
+    "node": true
+  },
+  "plugins": [ "jest" ],
+  "extends": [ "eslint:recommended", "google", "plugin:jest/recommended" ],
+
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "rules": {
+    "comma-dangle": "off",
+    "indent": [ "error", 2, { "SwitchCase": 1 } ],
+    "linebreak-style": [ "error", "unix" ],
+    "max-len": "off",
+    "no-console": [ 0, { "allow": [ "warn", "error", "info", "dir" ] } ],
+    "no-constant-condition": "off",
+    "no-unused-vars": [
+      "error",
+      { "vars": "local", "args": "after-used", "ignoreRestSiblings": false, "argsIgnorePattern": "next" }
+    ],
+    "no-useless-escape": "off",
+    "object-curly-spacing": "off",
+    "quotes": "off",
+    "semi": [ "error", "always" ]
+  }
+}
