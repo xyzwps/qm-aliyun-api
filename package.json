@@ -1,6 +1,6 @@
 {
   "name": "aliyun-api",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
     "got": "^9.6.0",
     "lodash": "^4.17.11",
     "moment": "^2.24.0",
-    "url-parse": "^1.4.4",
-    "uuid": "^3.3.2"
+    "ulid": "^2.3.0",
+    "url-parse": "^1.4.4"
   }
 }
