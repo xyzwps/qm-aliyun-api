@@ -1,4 +1,4 @@
-# AK-ALIYUN-API
+# QM-ALIYUN-API
 
 这是我自己根据自己的需要写的用于调用阿里云 API 小组件。如果你希望使用阿里云官方的 js API，[请戳这里](https://github.com/aliyun-UED/aliyun-sdk-js)。
 
@@ -12,7 +12,3 @@
 ## 现在支持那些 API？
 
 去看代码吧，没几个文件，而且很直白。都是我在工作中使用到的。
-
-## 为什么以 AK 开头？
-
-我也不知道……
