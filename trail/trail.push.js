@@ -14,6 +14,7 @@ const { push } = require('../index');
     body: '这是一条简单的小通知😂',
     extParams: null,
     androidActivity: process.env.ANDROID_ACTIVITY,
+    androidPopupActivity: process.env.ANDROID_ACTIVITY,
     // androidChannel,
     androidNotifyType: 'VIBRATE',
     androidOpenType: 'APPLICATION'
