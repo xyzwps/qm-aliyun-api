@@ -19,8 +19,13 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
-            "program": "${workspaceFolder}/trail/trail.cdn.js"
+            "name": "trail voice call",
+            "program": "${workspaceFolder}/trail/trail.voice-call.js",
+            "env": {
+                "APP_KEY": "xxxx",
+                "ACCESS_KEY_ID": "xxxx",
+                "ACCESS_KEY_SECRET": "xxxx"
+            }
         }
     ]
 }
