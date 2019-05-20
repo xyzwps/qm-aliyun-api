@@ -23,5 +23,5 @@ const { push } = require('../index');
   console.log(JSON.stringify(result, null, '   '));
 })().catch((err) => {
   console.error(JSON.stringify(err));
-  console.error(JSON.stringify(JSON.parse(err.response.body), null, '    '));
+  console.error(JSON.stringify(err.body, null, '    '));
 });
