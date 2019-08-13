@@ -7,6 +7,10 @@
     "test": "jest --silent",
     "test-with-log": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xyzwps/qm-aliyun-api.git"
+  },
   "author": "weily",
   "license": "ISC",
   "devDependencies": {
