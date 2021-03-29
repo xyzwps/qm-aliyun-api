@@ -1,6 +1,7 @@
 node_modules
 log
 .log
+package-lock.json
 trail-*.sh
 .vscode
 *.DS_Store
