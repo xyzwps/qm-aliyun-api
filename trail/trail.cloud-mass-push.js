@@ -2,7 +2,6 @@
 'use strict';
 
 const { CloudPush } = require('../index');
-const moment = require('moment');
 
 // prettier-ignore
 (async () => {
@@ -15,7 +14,7 @@ const moment = require('moment');
   const result = await cloudPush.massPush(
     {
       SignatureNonce: 'xx' + Date.now(),
-      Timestamp: moment().toISOString(),
+      Timestamp: new Date().toISOString(),
     },
     [
       {
